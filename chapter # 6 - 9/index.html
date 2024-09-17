@@ -5,11 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        * {
+            text-transform: capitalize;
+        }
+
+        h3 {
+            width: 40%;
+            height: 10vh;
+            background-color: black;
+            color: white;
+            border: 2px solid red;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
 </head>
 
 <body>
+    <h1>Marks Calculator</h1>
 
-    
+    <h2>Result</h2>
+    <table border="1">
+        <tr>
+            <th>subject</th>
+            <th>marks obtained</th>
+            <th>total marks</th>
+        </tr>
+
+        <tr>
+            <td id="subject-1"></td>
+            <td id="marks-obt-1"></td>
+            <td>100</td>
+        </tr>
+
+        <tr>
+            <td id="subject-2"></td>
+            <td id="marks-obt-2"></td>
+            <td>100</td>
+        </tr>
+
+        <tr>
+            <td id="subject-3"></td>
+            <td id="marks-obt-3"></td>
+            <td>100</td>
+        </tr>
+
+    </table>
+
+    <div class="heading">
+        <h3 id="total-marks">total marks</h3>
+        <h3 id="percentage">percentage</h3>
+    </div>
 
     <script src="app.js"></script>
 </body>

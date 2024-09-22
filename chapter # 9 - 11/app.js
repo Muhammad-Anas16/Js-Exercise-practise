@@ -63,7 +63,9 @@ console.log("Q no # 3")
 // document.getElementById("means3").innerText = "Undefine";
 // }
 
-var a = 4;
-if (++a === 5){
-alert("given condition for variable a is true");
-}
+console.log("Q no # 5")
+
+// var a = 4;
+// if (++a === 5){
+// alert("given condition for variable a is true");
+// }

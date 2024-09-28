@@ -1,7 +1,8 @@
+// Q no 1
 
 function checkCharacterType() {
     // get input
-    var input = document.getElementById("inputChar").value;
+    let input = document.getElementById("inputChar").value;
     
     // in single input
     if(input.lenght === 1){
@@ -21,3 +22,51 @@ function checkCharacterType() {
         document.getElementById("text").innerText = "Your Input is a Lowercase Letter";
     }
 }
+
+// Q no 2
+
+
+// let num1 = prompt("Enter Any Number");
+// let num2 = prompt("Enter Any Number");
+
+// if(num1 > num1){
+//     console.log("The Larger Integer is " + num1);
+// }
+// else if(num2 > num1) {
+//     console.log("The Larger Integer is " + num2);
+// }
+// else {
+//     console.log("Both Integers Are Equal");
+// }
+
+
+// Q no 3
+
+// let num3 = prompt("Enter a Number");
+
+// if(num3 >= 0){
+//     console.log(num3 + " is a positive Number");
+// }
+// else if(num3 < 0){
+//     console.log( num3 + " is a Negative Number");
+// }
+// else{
+//     console.log("The Number is 0");
+// }
+
+// Q no 4
+
+
+
+// let num4 = prompt("Enter a vovel word");
+
+
+// if(num4 === "a" || num4 === "e" || num4 === "i" || num4 === "o" || num4 === "u" ){
+//     console.log(true + " the word " + num4 + " is Vovel");
+// }
+// else{
+//     console.log(false + " the word " + num4 + " is not Vovel");
+// }
+
+// Q no 5
+

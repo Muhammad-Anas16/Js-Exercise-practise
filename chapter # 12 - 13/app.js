@@ -3,22 +3,22 @@
 function checkCharacterType() {
     // get input
     let input = document.getElementById("inputChar").value;
-    
+
     // in single input
-    if(input.lenght === 1){
+    if (input.lenght === 1) {
         document.getElementById("text").innerText = "Enter a Single Number";
         return
     }
-    
-    if(input>= 1 && input <= 100){
+
+    if (input >= 1 && input <= 100) {
         document.getElementById("text").innerText = "Your Input is a Number";
     }
 
-    if(input>= "A" && input <= "Z"){
+    if (input >= "A" && input <= "Z") {
         document.getElementById("text").innerText = "Your Input is a Uppercase Letter";
     }
 
-    if(input>= "a" && input <= "z"){
+    if (input >= "a" && input <= "z") {
         document.getElementById("text").innerText = "Your Input is a Lowercase Letter";
     }
 }
@@ -70,3 +70,41 @@ function checkCharacterType() {
 
 // Q no 5
 
+// var password = "112233";
+
+// var user = prompt("Enter your Password");
+
+// if(user === password){
+//     alert("Welcome User")
+// }
+// else{
+//     alert("You Enter a Incorrect Password");
+// }
+
+// Q no 6
+
+// 6. This if/else statement does not work. Try to fix it:
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// else
+// greeting = "Good evening";
+// }
+
+// fixed statment
+console.log("**** Q no # 6 ****")
+
+var greeting;
+var hour = 13;
+
+if (hour <= 13) {
+    greeting = "Good day";
+    console.log(greeting);
+}
+else {
+    greeting = "Good evening";
+    console.log(greeting);
+}
+
+// Q no 7

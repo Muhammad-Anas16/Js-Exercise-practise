@@ -68,44 +68,38 @@ console.log(studentName[2] + "'s Score is :" + zainScore + " and Persentage is :
 
 // Q no 8
 
-let colorName = ["red", "yellow", "blue", "green"];
+var color = ['red', 'green', 'yellow', 'parret', 'orange'];
 
-console.log(colorName);
+document.getElementById("colors").innerText = color;
 
-document.getElementById("colors").innerText = "First Array" + colorName;
+// var addStart = prompt("Enter the color you want add")
+// var addStart2 = prompt("Enter the color you want add")
 
-// Q no 8 // // a
+// color.unshift(addStart, addStart2);
 
-// var addColor = prompt(" add Color to the beginning");
+// color.shift()
 
-// colorName.unshift(addColor);
+// document.getElementById("colors").innerText = color;
 
-// document.getElementById("colors").innerText = "after  add : " + " " + colorName;
+// var addEnd = prompt("Enter the color you want add");
 
-// Q no 8 // // b
+// color.push(addEnd)
 
-// var addColorAtEnd = prompt(" add Color at End");
-// colorName.push(addColorAtEnd);
+// color.pop()
 
-// document.getElementById("colors").innerText = "after add at End : " + " " + colorName;
+// document.getElementById("colors").innerText = color;
 
-// Q no 8 // // c adding 2 or more color
+// var addInddex = prompt("Add color at any index");
+// var colorIndex = prompt("add color")
 
-colorName.unshift("purple", "gray");
+// color.splice(addInddex, 0, colorIndex);
 
-console.log(colorName);
+// document.getElementById("colors").innerText = color;
 
-// Q no 8 // // d :: Remove from the beginning
+// var anyInddex = prompt("Add color at any index");
+// var deletingIndex = prompt("deleting color")
 
-colorName.shift() 
+// color.splice(anyInddex, deletingIndex);
 
-console.log(colorName);
-
-// Q no 8 // // e :: Remove from the End
-
-colorName.pop()
-
-console.log(colorName);
-
-// Q no 8 // // f :: add color on any index
+// document.getElementById("colors").innerText = color;
 

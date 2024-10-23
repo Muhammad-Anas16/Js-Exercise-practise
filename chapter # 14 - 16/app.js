@@ -105,47 +105,70 @@ document.getElementById("colors").innerText = color;
 
 // Q no 10 ***********************************************************************
 
-var number = [320, 230, 480, 120];
+// var number = [320, 230, 480, 120];
 
-function bubbleSort(number) {
+// function bubbleSort(number) {
 
-    var solve = false;
+//     var solve = false;
 
-    while (!solve) {
+//     while (!solve) {
 
-        solve = true;
+//         solve = true;
 
-        for (var i = 1; i < number.length; i += 1) {
+//         for (var i = 1; i < number.length; i += 1) {
 
-            if (number, length[i - 1] > number[i]) {
+//             if (number, length[i - 1] > number[i]) {
 
-                solve = false;
+//                 solve = false;
 
-                var count = number[i - 1];
+//                 var count = number[i - 1];
 
-                number[i - 1] = number[i];
+//                 number[i - 1] = number[i];
 
-                number[i] = count;
+//                 number[i] = count;
 
-            }
+//             }
 
-        }
+//         }
 
-    }
+//     }
 
-}
+// }
 
-bubbleSort(number);
-console.log(number); 
-
+// bubbleSort(number);
+// console.log(number); 
 
 // Q no 11 ***********************************************************************
 
-var arr = ["This ", " is ", " my ", " cat"];
 
-var arr = arr.join("");
+// var citiesArray = ["Karachi", "lahore", "islamabad"];
+// var checkCity = prompt("enter city").toLowerCase();
 
-console.log(arr);
+// for(var i=0; i < citiesArray.length; i++){
+
+//     if(checkCity === citiesArray[i].toLowerCase()){
+
+//         alert("yes");
+
+//         document.write(checkCity);
+
+//         break
+
+//     }
+//     else{
+//         alert("Invalid Input");
+//     }
+
+// }
+
 
 // Q no 12 ***********************************************************************
+
+// var arr = ["This ", " is ", " my ", " cat"];
+
+// var arr = arr.join("");
+
+// console.log(arr);
+
+// Q no 13 ***********************************************************************
 

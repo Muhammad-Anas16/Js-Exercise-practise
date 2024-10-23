@@ -141,12 +141,6 @@ console.log(typeof (num));
 console.log(numTostr);
 console.log(typeof (numTostr));
 
-// Q no 13
-
-console.log("***** Q no 13 *****");
-
-
-
 // Q no 14
 
 console.log("***** Q no 14 *****");
@@ -168,11 +162,6 @@ console.log("***** Q no 14 *****");
 // }
 
 // console.log(A);
-
-// Q no 15
-
-console.log("***** Q no 15 *****");
-
 
 
 // Q no 16
@@ -200,18 +189,27 @@ console.log('LAst Charactor of User Input is : ', Qno17.lastIndexOf('n'))
 
 console.log("***** Q no 18 *****");
 
-let Qno18 = 'The quick brown fox jumps over the lazy dog';
+let strOf18 = 'The quick brown fox jumps over the lazy dog.';
+let updatestr = strOf18.toLowerCase();
+let the = 0;
 
-console.log(Qno18);
+console.log(strOf18);
 
-let updateNo18 = Qno18.toLowerCase();
+for(var i = 0; i < updatestr.length; i++){
+    // console.log(updatestr.slice(i, i+3));
+    if(updatestr.slice(i, i+3) === 'the'){
+        the++
+    }
+}
+
+console.log(`There are ${the} Occurance of word ("The")`)
+
+// Q no 13
+
+console.log("***** Q no 13 *****");
 
 
 
-// for(var i = 0; i < updateNo18.length; i += i+3){
-//     console.log(updateNo18[i]);
-// }
+// Q no 15
 
-
-
-console.log('Q no # 13 & Q no # 15 Left *************');
+console.log("***** Q no 15 *****");

@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.modal-Parant {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.282);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.modal {
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+}
+
+.modal-text {
+    background-color: blueviolet;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-data {
+    width: 90%;
+    height: 90%;
+    background-color: aqua;
+}
+
+.modalPara {
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#dataText {
+    width: 95%;
+    border: 1px solid black;
+    background-color: cadetblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}

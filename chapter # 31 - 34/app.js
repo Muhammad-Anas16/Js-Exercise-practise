@@ -1,14 +1,14 @@
 // Q no # 1
 console.log('**** Q no # 1 ****');
 
-let date = new Date();
-console.log(date)
+let currentDate = new Date();
+console.log(currentDate)
 
 // Q no # 2
 console.log('**** Q no # 2 ****');
 
 let monthArr = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-let month = date.getMonth();
+let month = currentDate.getMonth();
 
 console.log('The Corrent Month :', monthArr[month]);
 
@@ -16,7 +16,7 @@ console.log('The Corrent Month :', monthArr[month]);
 console.log('**** Q no # 3 ****');
 
 let dayArr = ["Sun", "Mon", "Tues", "Wednes", "Thurs", "Fri", "Satur"];
-let days = date.getDay()
+let days = currentDate.getDay()
 
 console.log('The Corrent Day :', dayArr[days]);
 
@@ -47,4 +47,42 @@ console.log('**** Q no # 5 ****');
 
 // Q no # 6
 console.log('**** Q no # 6 ****');
+
+console.log(' Q np 6 Not Done *********************');
+
+let min
+
+// Q no # 7
+console.log('**** Q no # 7 ****');
+
+let weather = currentDate.getHours();
+
+console.log('Hours : ', weather);
+
+if (weather < 12) {
+    console.log(`It's AM`);
+}
+else if(weather > 12){
+    console.log(`It's PM`);
+}
+
+// Q no # 8
+console.log('**** Q no # 8 ****');
+
+let laterDate = new Date(12, 31, 2020);
+
+console.log(laterDate);
+
+// Q no # 9
+console.log('**** Q no # 9 ****');
+
+let ramadan = new Date(3, 10, 2024);
+
+let sinceRamadan = ((currentDate - ramadan));
+
+console.log(sinceRamadan);
+console.log('ASK');
+
+// Q no # 10
+console.log('**** Q no # 10 ****');
 

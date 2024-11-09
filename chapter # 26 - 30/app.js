@@ -115,3 +115,6 @@ function go() {
     }
 
 }
+
+// Q no # 9
+console.log('**** Q no # 9 ****');
